@@ -3,4 +3,4 @@ project(crypto_aes)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(crypto_aes main.cpp AES.h SBox.cpp SBox.h RowShifter.cpp RowShifter.h Block.h ColumnMixer.cpp ColumnMixer.h KeySchedule.h InvalidKeySize.cpp InvalidKeySize.h)
+add_executable(aes main.cpp AES.h SBox.cpp SBox.h RowShifter.cpp RowShifter.h Block.h ColumnMixer.cpp ColumnMixer.h KeySchedule.h InvalidKeySize.cpp InvalidKeySize.h)

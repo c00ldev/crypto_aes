@@ -55,6 +55,8 @@ int main()
 		clog << setw(2) << ((size_t)c & 0xFFu);
 	clog << endl;
 
+	cout << cipher;
+
 	clog << "Decrypted: ";
 	string decrypted;
 	switch (key.size())
